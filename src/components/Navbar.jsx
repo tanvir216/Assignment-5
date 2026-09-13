@@ -17,6 +17,7 @@ function Navbar() {
       
       </div>
 
+
       <ul className="nav-links">
         <li className="active">Home</li>
         <li>Technologies</li>
