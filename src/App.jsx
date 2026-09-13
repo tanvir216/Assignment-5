@@ -72,9 +72,14 @@ function App() {
     <>
       <Navbar />
 
-      <Hero />
+      <section id="home">
+        <Hero />
+      </section>
 
-      <section className="tech-section">
+      <section
+        id="technologies"
+        className="tech-section"
+      >
         <div className="section-title">
           <h2>
             Explore the <span>Technologies</span>
@@ -105,8 +110,10 @@ function App() {
           />
         </div>
       </section>
-      
-      <Footer />
+
+      <section id="projects">
+        <Footer />
+      </section>
 
       <ToastContainer
         position="bottom-right"
