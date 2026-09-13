@@ -4,26 +4,21 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-top">
-
         <div className="footer-brand">
           <div className="logo">
-            <img
-              src={logo}
-              alt="Dev Stack"
-              className="logo-image"
-            />
+            <img src={logo} alt="Dev Stack" className="logo-image" />
           </div>
 
           <p>
-            Curated tools, technologies, and resources
-            for developers building modern software.
+            Curated tools, technologies, and resources for developers building
+            modern software.
           </p>
 
-      <div className="socials">
-  <span>GitHub</span>
-  <span>Twitter</span>
-  <span>LinkedIn</span>
-</div>
+          <div className="socials">
+            <span>GitHub</span>
+            <span>Twitter</span>
+            <span>LinkedIn</span>
+          </div>
         </div>
 
         <div>
@@ -51,7 +46,6 @@ function Footer() {
             <li>Terms of Service</li>
           </ul>
         </div>
-
       </div>
 
       <div className="footer-bottom">
