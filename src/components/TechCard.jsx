@@ -29,7 +29,6 @@ function TechCard({ tech, stack, handleAddToStack }) {
       </div>
 
       <button
-        disabled={added}
         onClick={() => handleAddToStack(tech)}
         className={added ? "added-btn" : ""}
       >

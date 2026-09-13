@@ -61,12 +61,12 @@ function App() {
   };
 
   if (loading) {
-  return (
-    <div className="loading">
-      Loading Technologies...
-    </div>
-  );
-}
+    return (
+      <div className="loading">
+        Loading Technologies...
+      </div>
+    );
+  }
 
   return (
     <>

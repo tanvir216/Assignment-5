@@ -1,3 +1,5 @@
+import logo from "../assets/logo-text.png";
+
 function Footer() {
   return (
     <footer className="footer">
@@ -5,29 +7,27 @@ function Footer() {
 
         <div className="footer-brand">
           <div className="logo">
-            <div className="logo-box">DS</div>
-
-            <h2>
-              Dev <span>Stack</span>
-            </h2>
+            <img
+              src={logo}
+              alt="Dev Stack"
+              className="logo-image"
+            />
           </div>
 
           <p>
-            Curated tools, technologies and
-            resources for developers building
-            modern software.
+            Curated tools, technologies, and resources
+            for developers building modern software.
           </p>
 
-          <div className="socials">
-            <span>GitHub</span>
-            <span>Twitter</span>
-            <span>LinkedIn</span>
-          </div>
+      <div className="socials">
+  <span>GitHub</span>
+  <span>Twitter</span>
+  <span>LinkedIn</span>
+</div>
         </div>
 
         <div>
           <h4>PRODUCT</h4>
-
           <ul>
             <li>Home</li>
             <li>Technologies</li>
@@ -37,7 +37,6 @@ function Footer() {
 
         <div>
           <h4>COMPANY</h4>
-
           <ul>
             <li>About</li>
             <li>Contact</li>
@@ -47,16 +46,21 @@ function Footer() {
 
         <div>
           <h4>LEGAL</h4>
-
           <ul>
             <li>Privacy Policy</li>
-            <li>Terms Of Service</li>
+            <li>Terms of Service</li>
           </ul>
         </div>
+
       </div>
 
       <div className="footer-bottom">
-        © 2026 Dev Stack. All rights reserved.
+        <p>© 2026 Dev Stack. All rights reserved.</p>
+
+        <div className="footer-links">
+          <span>Privacy</span>
+          <span>Terms</span>
+        </div>
       </div>
     </footer>
   );
